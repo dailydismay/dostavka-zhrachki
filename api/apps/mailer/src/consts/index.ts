@@ -1,0 +1,1 @@
+export const SEND_EMAIL_EVENT = 'SEND_EMAIL_EVENT';

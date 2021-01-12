@@ -1,0 +1,29 @@
+{
+  "monorepo": true,
+  "root": "apps/main",
+  "sourceRoot": "apps/main/src",
+  "compilerOptions": {
+    "webpack": true,
+    "tsConfigPath": "apps/main/tsconfig.app.json"
+  },
+  "projects": {
+    "main": {
+      "type": "application",
+      "root": "apps/main",
+      "entryFile": "main",
+      "sourceRoot": "apps/main/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/main/tsconfig.app.json"
+      }
+    },
+    "mailer": {
+      "type": "application",
+      "root": "apps/mailer",
+      "entryFile": "main",
+      "sourceRoot": "apps/mailer/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/mailer/tsconfig.app.json"
+      }
+    }
+  }
+}
